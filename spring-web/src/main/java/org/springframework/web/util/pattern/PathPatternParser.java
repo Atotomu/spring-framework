@@ -42,7 +42,7 @@ public class PathPatternParser {
 
 
 	/**
-	 * Whether a {@link PathPattern} produced by this parser should should
+	 * Whether a {@link PathPattern} produced by this parser should
 	 * automatically match request paths with a trailing slash.
 	 *
 	 * <p>If set to {@code true} a {@code PathPattern} without a trailing slash
@@ -81,7 +81,8 @@ public class PathPatternParser {
 	/**
 	 * Set options for parsing patterns. These should be the same as the
 	 * options used to parse input paths.
-	 * <p>{@link PathContainer.Options#HTTP_PATH} is used by default.
+	 * <p>{@link org.springframework.http.server.PathContainer.Options#HTTP_PATH}
+	 * is used by default.
 	 * @since 5.2
 	 */
 	public void setPathOptions(PathContainer.Options pathOptions) {
